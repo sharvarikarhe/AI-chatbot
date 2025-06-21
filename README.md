@@ -26,49 +26,39 @@ A modular, locally-deployed AI chatbot powered by **Groq** and **OpenAI** LLMs, 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-Create and activate a virtual environment
+```
 
-bash
-Copy
-Edit
+2. **Create and activate a virtual environment**
+
+```bash
 python -m venv venv
-venv\Scripts\activate    # for Windows
-Install requirements
+venv\Scripts\activate   # for Windows
+```
 
-bash
-Copy
-Edit
+3. **Install requirements**
+
+```bash
 pip install -r requirements.txt
-Set up your .env file with these keys:
+```
 
-env
-Copy
-Edit
+4. **Set up your .env file with these keys:**
+
+```env
 GROQ_API_KEY=your_groq_key
 TAVILY_API_KEY=your_tavily_key
-Run the backend
+```
 
-bash
-Copy
-Edit
+5. **Run the backend**
+
+```bash
 python backend.py
-Run the frontend (in a new terminal)
+```
 
-bash
-Copy
-Edit
+6. **Run the frontend** (in a new terminal)
+
+```bash
 streamlit run frontend.py
+```
+
 🧪 Sample Prompt
 “List 3 top-performing stocks this week with a brief analysis.”
-
-Folder Structure
-bash
-Copy
-Edit
-.
-├── backend.py
-├── frontend.py
-├── ai_agent.py
-├── requirements.txt
-├── .env
-└── README.md
