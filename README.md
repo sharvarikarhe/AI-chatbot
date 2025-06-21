@@ -1,11 +1,11 @@
 # AI Chatbot Agent with LangGraph, Streamlit, and FastAPI
 
-A modular, locally-deployed AI chatbot powered by **Groq** and **OpenAI** LLMs, capable of answering user queries with optional real-time web search integration using **Tavily**.
+A modular, locally-deployed AI chatbot powered by **Groq** and LLMs, capable of answering user queries with optional real-time web search integration using **Tavily**.
 
-## 🔧 Features
+## Features
 
 - Agent-based reasoning using **LangGraph** and **LangChain**
-- Real-time responses from **Groq (LLaMA 3, Mixtral)** and **OpenAI GPT-4o-mini**
+- Real-time responses from **Groq (LLaMA 3, Mixtral)**
 - Optional web search with **Tavily API**
 - Clean and interactive UI using **Streamlit**
 - Fast and scalable backend with **FastAPI**
@@ -13,7 +13,7 @@ A modular, locally-deployed AI chatbot powered by **Groq** and **OpenAI** LLMs, 
 
 ## Tech Stack
 
-- **LLMs**: Groq (LLaMA 3, Mixtral), OpenAI (GPT-4o-mini)
+- **LLMs**: Groq (LLaMA 3, Mixtral)
 - **Frontend**: Streamlit
 - **Backend**: FastAPI, Pydantic
 - **Agent Framework**: LangGraph, LangChain
@@ -60,5 +60,5 @@ python backend.py
 streamlit run frontend.py
 ```
 
-🧪 Sample Prompt
+Sample Prompt
 “List 3 top-performing stocks this week with a brief analysis.”
